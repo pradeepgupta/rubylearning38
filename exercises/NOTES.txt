@@ -1,0 +1,14 @@
+Do edit your files, but do a git add when you feel it is complete...
+then do a git commit with description. For instance your flow might look
+like this:
+git pull origin master
+create and edit exercise1
+git add exercise1
+git commit with description
+and then create and edit exercise 2
+git add exercise2 when done
+git commit with description... d
+at the last exercise, in this case file 5...
+Then we would do the final add
+final commit
+and finally we would push our code to master.
