@@ -1,0 +1,20 @@
+doctest: Setup
+>> require './w1e06.rb'
+doctest: Write a method called convert
+>> convert(-40)
+=> -40
+doctest: convert(-40) should return -40.0
+>> convert(-40)
+=> -40
+doctest: convert(212) should return 100
+>> convert 212
+=> 100
+doctest: convert 98.6 should return 37
+>> convert 98.6
+=> 37
+doctest: convert 98 should not return 37
+>> convert(98) != 37
+=> true
+
+
+
