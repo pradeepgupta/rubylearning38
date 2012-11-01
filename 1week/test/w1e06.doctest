@@ -15,6 +15,12 @@ doctest: convert 98.6 should return 37
 doctest: convert 98 should not return 37
 >> convert(98) != 37
 => true
+doctest: Convert many well known values
+>> well_known_values = [-40, 0, 32, 98, 98.6, 100, 212]
+>> well_known_values.map {|fahrenheit| convert(fahrenheit) }
+=> [-40.0, -17.77777777777778, 0.0,\
+      36.666666666666664, 37.0, 37.77777777777778, 100.0]
+
 
 
 
