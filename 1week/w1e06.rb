@@ -10,7 +10,10 @@
 #
 #Another way is to use the round function as follows: puts (x*100).round/100.0
 #Quetion: Can you give me any clue for this?
+
+
 def convert ( temp_in_farenheit )
- temp_in_celcius = "[ ( #{temp_in_farenheit} -  32) *  5/9 ]"
+ temp_in_celcius = ( temp_in_farenheit.to_f -  32) *  5/9
 end
+
 puts convert 98.7
