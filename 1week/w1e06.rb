@@ -9,5 +9,8 @@
 #This is also to say that if x = 10 then format("$.2f", x) will return the string "10.00"
 #
 #Another way is to use the round function as follows: puts (x*100).round/100.0
-
-#Question: Can you give me any clue for this?
+#Quetion: Can you give me any clue for this?
+def convert ( temp_in_farenheit = 98.7)
+ temp_in_celcius =[ ( 98.7 -  32) *  5/9 ]
+end
+puts convert 98.7
