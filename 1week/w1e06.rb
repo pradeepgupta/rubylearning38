@@ -12,8 +12,8 @@
 # Quetion: Can you give me any clue for this?
 
 
-def convert ( temp_in_farenheit )
-  ( temp_in_farenheit.to_f -  32) *  5/9
+def convert( temp_in_farenheit)
+  (temp_in_farenheit.to_f -  32) *  5/9
 end
 
 puts convert 98.7
