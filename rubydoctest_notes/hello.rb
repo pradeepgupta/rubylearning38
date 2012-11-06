@@ -11,13 +11,22 @@ doctest: I can greet Santa Claus personally too!
 doctest: I can ask if someone is there
 >> hello("Victor", '?')
 => "Hello Victor?"
+doctest: I can say :Hello Baby!"
+>> hello("Baby")
+=> "Hello Baby!"
+doctest: i want to say dear baby!
+>> dear ("baby")
+=> "dear baby!"
 =end
 
 def hello(name="World", punctuation='!')
   "Hello #{name}#{punctuation}"
 end
 
-
+def dear baby
+"dear baby!"
+  
+end
 =begin
 doctest: regression testing
 >> hello
